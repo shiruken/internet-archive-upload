@@ -23,6 +23,8 @@ def main():
         secret_key=secret_key,
         verbose=True,
         files=files,
+        verify=True,
+        checksum=True,
     )
     _upload(identifier, **kwargs)
 
