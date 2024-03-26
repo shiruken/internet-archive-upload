@@ -31,7 +31,7 @@ runs:
 
     - id: install-deps
       name: Install Python dependencies
-      run: pip install internetarchive retry
+      run: pip install -r requirements.txt
       shell: bash
 
     - id: upload-files
